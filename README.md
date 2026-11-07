@@ -75,7 +75,7 @@ npm ci
 npm run build
 ```
 
-Deploy the project root using the Vercel CLI or import this repository in Vercel. The included `vercel.json` runs `npm run build` and serves the generated `dist/` directory. No environment variables are required.
+Import this repository in Vercel and use the project root. Vercel reads `vercel.json`, runs `npm run build`, and serves the generated `dist/` directory. The checked-in `package-lock.json` makes dependency installation reproducible. No environment variables are required. Model files are served with revalidation so newly exported model weights are not stuck behind a year-long immutable browser cache; standard security headers are also configured.
 
 ## Deploy to Render
 
