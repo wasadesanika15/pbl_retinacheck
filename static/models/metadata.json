@@ -1,0 +1,12 @@
+{
+  "inputSize": 224,
+  "classNames": [
+    "No DR",
+    "Mild",
+    "Moderate",
+    "Severe",
+    "PDR"
+  ],
+  "preprocessing": "rgb-resize-bilinear-0-255-v1",
+  "outputActivation": "softmax"
+}

@@ -1,0 +1,13 @@
+.venv/
+.venv-windows/
+__pycache__/
+*.py[cod]
+.env
+models/
+!static/models/
+!static/models/**
+dist/
+node_modules/
+.vercel/
+static/vendor/
+.DS_Store

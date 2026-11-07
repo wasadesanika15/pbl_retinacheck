@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: retinacheck
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
